@@ -6,7 +6,7 @@ Some stuff to help your pipelines
 
 You can use `vars/globals`. Add variable to `globals`:
 
-```
+```groovy
 class globals {
     final String FOO = "foo!"
 }
@@ -14,7 +14,7 @@ class globals {
 
 Get global variable from pipeline or library with
 
-```
+```groovy
 @Field final String FOO = globals.FOO
 stage('foo') {
     echo FOO
