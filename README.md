@@ -4,7 +4,7 @@ Some stuff to help your pipelines
 
 ## Global variables in libraries
 
-You can use `vars/globals`. Add variable to `globals`:
+You can use `vars/globals.groovy`. Add variable to `globals.groovy`:
 
 ```groovy
 class globals {
@@ -20,4 +20,3 @@ stage('foo') {
     echo FOO
 }
 ```
-
