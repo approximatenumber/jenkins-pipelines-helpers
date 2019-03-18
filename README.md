@@ -16,5 +16,8 @@ Get global variable from pipeline or library with
 
 ```
 @Field final String FOO = globals.FOO
+stage('foo') {
+    echo FOO
+}
 ```
 
