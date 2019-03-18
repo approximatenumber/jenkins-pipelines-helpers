@@ -20,3 +20,13 @@ stage('foo') {
     echo FOO
 }
 ```
+
+## `curl` wrapper
+
+You can use simple `curl` wrapper `vars/curl.groovy` for `curl`\`ing:
+
+```groovy
+stage('curl it') {
+    curl url: "http://example.com", with_authentication: false
+}
+```
